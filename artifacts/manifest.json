@@ -1,0 +1,13 @@
+{
+  "compiler": "0.8.21+commit.d9974bed.Emscripten.clang",
+  "evmVersion": "shanghai",
+  "optimizerRuns": 200,
+  "sha256": {
+    "contracts/original/RoleToken.sol": "335b79ec96b24e41d5768c105f7708d06a9c0512743714aa949b5fe973494d62",
+    "contracts/original/RoleBasedAccessControl.sol": "8f3dc6823ab4b82572694479595cdff49b6a42331ecfe526502f8a253b876161",
+    "contracts/ReceiptDecisionGateway.sol": "34eea67eaf3a3b7d71b895901c549f4aef788ff19db4b9e4e37a87b9183447fd",
+    "artifacts/RoleToken.json": "b585e9f4743b7349833e9d3b76a901e2d3403787ef895319eafc386fbb9c8e74",
+    "artifacts/RoleBasedAccessControl.json": "c11e5d5584c11387e4d75cdcd6a3ab95ff1b3dff58985f74ce027c6ff62d4b11",
+    "artifacts/ReceiptDecisionGateway.json": "ae2cead9a79c759ae802db877549e992e8896e7a385d90942fc533f922031f4d"
+  }
+}

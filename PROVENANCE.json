@@ -1,0 +1,26 @@
+{
+  "source_archive": "Access_Control_Mechanism-main.zip",
+  "original_contracts": [
+    {
+      "path": "contracts/original/RoleToken.sol",
+      "original_archive_path": "Access_Control_Mechanism-main/contracts/RoleToken.sol",
+      "sha256": "335b79ec96b24e41d5768c105f7708d06a9c0512743714aa949b5fe973494d62",
+      "modified": false
+    },
+    {
+      "path": "contracts/original/RoleBasedAccessControl.sol",
+      "original_archive_path": "Access_Control_Mechanism-main/contracts/RoleBasedAccessControl.sol",
+      "sha256": "8f3dc6823ab4b82572694479595cdff49b6a42331ecfe526502f8a253b876161",
+      "modified": false
+    }
+  ],
+  "new_contract": "contracts/ReceiptDecisionGateway.sol",
+  "not_deployed": [
+    "AccessControlContract",
+    "JudgeContract",
+    "RegisterContract",
+    "AccessControlFactory",
+    "original IoT gateway"
+  ],
+  "scope": "Original role/token contracts plus a new local-chain decision adapter; no inherited Judge penalties"
+}
